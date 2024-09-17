@@ -62,7 +62,7 @@ export default function Home(props) {
                 <p>
         This app is built with Next.js and Firebase and is inspired by Dev.to.
         <b>
-            (<Link href="/raselshikdar/usage-and-documentations" aria-label="Usage &amp; Documentations">Docs...</Link>)
+            <link href="/raselshikdar/usage-and-documentations" aria-label="Usage and Documentations">Docs...</link>
         </b>
     </p>
             </div>
