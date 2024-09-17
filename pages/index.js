@@ -60,7 +60,7 @@ export default function Home(props) {
             <div className="card card-info">
                 <h2>Welcome to Weblog</h2>
                 <p>
-                    Welcome! This app is built with Next.js and Firebase and is loosely inspired by
+                    This app is built with Next.js and Firebase and is loosely inspired by
                     Dev.to.
                 </p>
             </div>
