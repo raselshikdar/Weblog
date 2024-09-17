@@ -60,9 +60,11 @@ export default function Home(props) {
             <div className="card card-info">
                 <h2>Welcome to Weblog</h2>
                 <p>
-                    This app is built with Next.js and Firebase and is inspired by
-                    Dev.to. <b>(<a href="/raselshikdar/usage-and-documentations" aria-lebel="Usage & Documentations">Docs...</a>)</b>
-                </p>
+    This app is built with Next.js and Firebase and is inspired by Dev.to.
+    <b>
+        (<a href="/raselshikdar/usage-and-documentations" aria-label="Usage & Documentations">Docs...</a>)
+    </b>
+</p>
             </div>
 
             <PostFeed posts={posts} />
