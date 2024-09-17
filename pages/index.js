@@ -61,9 +61,9 @@ export default function Home(props) {
                 <h2>Welcome to Weblog</h2>
                 <p>
     This app is built with Next.js and Firebase and is inspired by Dev.to.{' '}
-    <a href="https://weblogbd.vercel.app/raselshikdar/usage-and-documentions" target="_blank" rel="noopener noreferrer">
-      Docs
-    </a>
+    (<a href="https://weblogbd.vercel.app/raselshikdar/usage-and-documentions" target="_blank" rel="noopener noreferrer">
+      <b>Usage and Docs</b>
+    </a>)
   </p>
             </div>
 
