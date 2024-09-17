@@ -55,13 +55,13 @@ export default function Home(props) {
 
     return (
         <main>
-            {/* <Metatags title="Home Page" description="Get the latest posts on our site" /> */}
+            {/* <Metatags title="Weblog | Home" description="Get the latest posts on our site" /> */}
 
             <div className="card card-info">
                 <h2>💡 Weblog is Live</h2>
                 <p>
     Welcome to Web Blog. This app is built with Next.js and Firebase and is inspired by Dev.to.{' '}
-    [<a href="https://weblogbd.vercel.app/raselshikdar/usage-and-documentations">
+    [<a href="https://weblog.rweb.site/raselshikdar/usage-and-documentations">
       More...
     </a>]
   </p>
