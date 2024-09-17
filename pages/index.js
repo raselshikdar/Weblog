@@ -59,13 +59,13 @@ export default function Home(props) {
 
             <div className="card card-info">
                 <h2>Welcome to Weblog</h2>
-                import Link from 'next/link';  // Add this import
+                import Link from 'next/link';  // Import Link
 
 const Component = () => (
     <p>
         This app is built with Next.js and Firebase and is inspired by Dev.to.
         <b>
-            (<Link href="/raselshikdar/usage-and-documentations" aria-label="Usage & Documentations">Docs...</Link>)
+            (<Link href="/raselshikdar/usage-and-documentations" aria-label="Usage &amp; Documentations">Docs...</Link>)
         </b>
     </p>
 );
