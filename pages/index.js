@@ -60,7 +60,7 @@ export default function Home(props) {
             <div className="card card-info">
                 <h2>💡 Weblog is Live</h2>
                 <p>
-    Welcome to Web Blog. This app is built with Next.js and Firebase and is inspired by Dev.to.{' '}
+    Welcome to Web Blog. This app is built with Next.js and Firebase and is loosely inspired by Dev.to.{' '}
     [<a href="https://weblogbd.vercel.app/raselshikdar/usage-and-documentations">
       More...
     </a>]
