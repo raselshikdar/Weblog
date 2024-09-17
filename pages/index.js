@@ -57,24 +57,16 @@ export default function Home(props) {
         <main>
             {/* <Metatags title="Weblog | Home" description="Get the latest posts on our site" /> */}
 
-            {!exitedHero && (
-        <div className="card card-info hero">
-          <h2>💡 Welcome to Devlog</h2>
-          <p>
-            Welcome! This app is built with Next.js and Firebase and is loosely
-            inspired by Dev.to
-          </p>
-          <p>
-            Sign up for an 👨‍🎤 account, ✍️ write posts; 💖 hearts & 💬 comments other's posts. All public content is server-rendered and
-            seo optimized. (<a href="/raselshikdar/about-us" aria-lebel="About Us">📖 About</a> • <a href="/raselshikdar/privacy-policy" aria-lebel="Privacy Policy">🛡️ Privacy</a> • <a href="/raselshikdar/terms-of-service" aria-lebel="Terms of Service">📃 Terms</a>)
-          </p>
-          <span className="exit-hero" onClick={exitHero}>
-            <abbr title="close">
-              <AiOutlineCloseCircle />
-            </abbr>
-          </span>
-        </div>
-      )}
+            <div className="card card-info">
+                <h2>💡 Welcome to Weblog</h2>
+                <p>
+                    Welcome! This app is built with Next.js and Firebase and is loosely inspired by
+                    Dev.to.
+                </p>
+                <p>
+                    Sign up for an 🎉 account, ✍🏻 write posts; 💖 hearts other user's contents. All public content is server-rendered and seo optimized.
+                </p>
+            </div>
 
             <PostFeed posts={posts} />
 
