@@ -55,7 +55,10 @@ export default function Home(props) {
 
     return (
         <main>
-            {/* <Metatags title="Weblog | Home" description="Get the latest posts on our site" /> */}
+            {/* <Metatags
+        title="Weblog | Home"
+        description="Get the latest posts on our site"
+      /> */}
 
             <div className="card card-info">
                 <h2>💡 Weblog is Live</h2>
