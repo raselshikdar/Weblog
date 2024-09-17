@@ -61,9 +61,6 @@ export default function Home(props) {
                 <h2>Welcome to Weblog</h2>
                 <p>
         This app is built with Next.js and Firebase and is inspired by Dev.to.
-        <b>
-            <link href="/raselshikdar/usage-and-documentations" aria-label="Usage and Documentations">Docs...</link>
-        </b>
     </p>
             </div>
 
